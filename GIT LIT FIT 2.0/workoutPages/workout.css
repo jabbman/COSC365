@@ -1,0 +1,58 @@
+.split{
+    column-count: 2;
+    text-align: center;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+.pic, .videos{
+    text-align: center;
+}
+
+.videos{
+    font-size: 16pt;
+}
+
+@font-face{
+    font-family: "myFirstFont";
+    src: url(sansation_light.woff);
+}
+
+body{
+    font-family: "Valencia", sans-serif;
+    background-color: #000033;
+    color: #0099e6;
+}
+
+a:link{
+    text-decoration: none;
+    color: #6699cc;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #6699cc;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #6699cc;
+}
+
+a:active{
+    text-decoration: underline;
+    color: #6699cc;
+}
+
+h1{
+    background-color: lightgrey;
+    padding: 8pt;
+    
+}
+
+h2{
+    background-color: #a3a3c2;
+    padding: 8pt;
+}

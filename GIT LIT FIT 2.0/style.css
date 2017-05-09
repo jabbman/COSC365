@@ -1,0 +1,151 @@
+* {
+    background-color: #000000;
+	font-family: "courier new";
+	color: white;
+	
+
+}
+
+ .carousel-inner  > img >.item ,
+  .carousel-inner > .item > a > img {
+      width: 80%;
+      margin: auto;
+  }
+
+#myDIV {
+    width: 500px;
+    height: 600px;
+    background: black url('imgs/weight1.jpg') repeat top left/200px 200px;
+    -webkit-animation: mymove 10s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 3s infinite;
+    font-family: Lucida Bright;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    80% {background:  url  bottom right/50px 50px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+	
+    90% {background: black bottom right/50px 50px;}
+}
+
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: center;
+    padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.header {
+    background-color: white;
+    color: white;
+    padding: 20px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: red;
+    color: black;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: black;
+}
+
+.split{
+    column-count: 2;
+    text-align: center;
+}
+h1 {
+	color: white;
+    text-align: center;
+	padding-top: auto;
+	
+	font-weight : strong;
+	font-size: 50px;
+	font-family: Lucida Bright;
+}
+h2{
+	
+	color: red;
+    text-align: center;
+	padding-top: auto;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+    font-size: 20px;
+	color: white
+}
+
+p {
+	color: red;
+	font-family: Lucida Bright;
+	font-size: 18px;
+	font-weight: 20px;
+	
+}
+
+button {
+	
+	color: red;
+	height: 150px;
+	width: 400px;
+	text-align: center;
+	
+	
+	padding-top: 20px;
+	color:white;
+	font-size: 40px;
+	font-weight: strong;
+	text-align: center;
+	bottom: 50%;
+	
+}
+
+form {
+	color:red;
+	font-size: 20px;
+	
+}
+
+/*new/////////////////////////////////////////////////
+
+*/
+
+body {
+	
+	background: #00ff00 src(imgs/weight2.jpg)
+}
+
+footer {
+	
+	color: white:
+}
